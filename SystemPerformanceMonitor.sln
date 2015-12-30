@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{10A7A634-E62C-4221-9A5B-72749BE30C33}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemMonitorConsoleApplication", "SystemMonitorConsoleApplication\SystemMonitorConsoleApplication.csproj", "{4ECAA508-9C6A-44C2-A4A1-3CC1ECD56C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aliyun.OSS", "Aliyun.OSS", "{ECF2BF3F-420B-4E6B-8D75-DA7AC39DE18A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aliyun-oss-sdk", "aliyun.oos.src\aliyun-oss-sdk.csproj", "{67BDC800-084C-4F84-8A80-661B5AFE499A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samples", "aliyun.oos.sample\samples.csproj", "{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ECAA508-9C6A-44C2-A4A1-3CC1ECD56C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECAA508-9C6A-44C2-A4A1-3CC1ECD56C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECAA508-9C6A-44C2-A4A1-3CC1ECD56C79}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4ECAA508-9C6A-44C2-A4A1-3CC1ECD56C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECAA508-9C6A-44C2-A4A1-3CC1ECD56C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECAA508-9C6A-44C2-A4A1-3CC1ECD56C79}.Release|x86.ActiveCfg = Release|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Release|x86.ActiveCfg = Release|Any CPU
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Debug|x86.ActiveCfg = Debug|x86
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Debug|x86.Build.0 = Debug|x86
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Release|x86.ActiveCfg = Release|x86
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67BDC800-084C-4F84-8A80-661B5AFE499A} = {ECF2BF3F-420B-4E6B-8D75-DA7AC39DE18A}
+		{ADC5BCC2-3677-4CD5-9ED3-5BBA427519DD} = {ECF2BF3F-420B-4E6B-8D75-DA7AC39DE18A}
+	EndGlobalSection
+EndGlobal

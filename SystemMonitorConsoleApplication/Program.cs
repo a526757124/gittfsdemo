@@ -10,6 +10,7 @@ namespace SystemMonitorConsoleApplication
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
